@@ -1,0 +1,240 @@
+Following is the complete WaffleCode server log from the first time John and I ran the code and it worked.  I didn't remove anything.
+
+**************************
+WaffleCode Alpha Version 0.4.2_20
+Author: Daniel Glus
+SERVER CONSOLE
+**************************
+Type "help" (without the quotes) into the command box at the
+		bottom to obtain a list of the commands.
+Initialized non-network stuff.
+Initialized ServerSocket.
+Current port: 4444
+-
+Waiting for a connection...
+[ClientHandler()] Local port of client is: 4444
+[ClientHandler()] Remote port of client is: 61987
+[ClientHandler()] Client host address is: 192.168.0.101
+Got a connection!
+1 people are now connected.
+-
+In ClientHandler run() method, just before start of while loop...
+Waiting for a connection...
+Got a message from Daniel Glus: ": hi".
+Got a message from Daniel Glus: ": asdf : hi".
+[ClientHandler()] Local port of client is: 4444
+[ClientHandler()] Remote port of client is: 53682
+[ClientHandler()] Client host address is: 5.40.132.173
+Got a connection!
+2 people are now connected.
+-
+Waiting for a connection...
+In ClientHandler run() method, just before start of while loop...
+Got a message from Harry Shi: ": hola".
+Telling everyone:  hi
+Got a message from Daniel Glus: ": hi".
+Got a message from Daniel Glus: ": so".
+Got a message from Harry Shi: ": this is so cool... ".
+Got a message from Daniel Glus: ": does the program feel any different?".
+Got a message from Harry Shi: ": no".
+Got a message from Harry Shi: ": ...".
+Got a message from Daniel Glus: ": and how is it so cool?".
+Got a message from Harry Shi: ": the fact that u can use hamachi".
+Got a message from Harry Shi: ": i use hamachi for my servers".
+Got a message from Harry Shi: ": i did not know that it could be used for this".
+Got a message from Daniel Glus: ": yeah".
+[ClientHandler()] Local port of client is: 4444
+[ClientHandler()] Remote port of client is: 53153
+[ClientHandler()] Client host address is: 5.19.244.115
+Got a connection!
+3 people are now connected.
+-
+Waiting for a connection...
+In ClientHandler run() method, just before start of while loop...
+Got a message from Daniel Glus: ": At first, my friend and I did it over the regular Internet".
+Got a message from John: ": Hey there!".
+Got a message from Daniel Glus: ": hi".
+Got a message from John: ": woohoo!".
+Got a message from Daniel Glus: ": WOOHOO".
+Got a message from John: ": :)".
+Got a message from Daniel Glus: ": yayzorz".
+Got a message from John: ": yeah".
+Got a message from Harry Shi: ": ello".
+Got a message from Daniel Glus: ": this is my friend Harry".
+Got a message from Harry Shi: ": hi harry".
+Got a message from John: ": hi, harry".
+Got a message from Daniel Glus: ": wot?".
+Got a message from John: ": wots?".
+Got a message from Daniel Glus: ": and this is my friend John".
+Got a message from Daniel Glus: ": He helped write the program".
+Got a message from John: ": yes".
+Got a message from John: ": yes i did".
+Got a message from Daniel Glus: ": Actually, he wrote the client".
+Got a message from Harry Shi: ": how many people can chat on this program at once?".
+Got a message from John: ": mhm".
+Got a message from Daniel Glus: ": Which is the program that runs on your computer".
+Got a message from Daniel Glus: ": Well".
+Got a message from Daniel Glus: ": At the moment".
+Got a message from Daniel Glus: ": The limit is 4".
+Got a message from Daniel Glus: ": because that's the amount of people that can be on the Hamachi network at once".
+Got a message from Daniel Glus: ": before I have to pay".
+Got a message from John: ": can i make some edits on the server/chat?".
+Got a message from John: ": just basic formatting stuff?".
+Got a message from Daniel Glus: ": well sure".
+Got a message from Daniel Glus: ": wait".
+Got a message from Daniel Glus: ": what do you mean?".
+Got a message from John: ": like".
+Got a message from John: ": make the names bold".
+Got a message from John: ": and dont have it repeat the name if the same person says somethign twice".
+Got a message from Daniel Glus: ": that would be really cool".
+Got a message from Daniel Glus: ": how would you propose doing that?".
+Got a message from John: ": um, i havent even seen the code yet".
+Got a message from John: ": but".
+Got a message from John: ": could i take a look?".
+Got a message from Daniel Glus: ": well".
+Got a message from Daniel Glus: ": yeah".
+Got a message from John: ": ok, cool".
+Got a message from Daniel Glus: ": but I wonder how you would propose doing that".
+Got a message from John: ": btw, i just made a backup on my comp".
+Got a message from Daniel Glus: ": i.e. changing the code".
+Got a message from John: ": just in case".
+Got a message from Daniel Glus: ": cool".
+Got a message from Daniel Glus: ": thanks".
+Got a message from Daniel Glus: ": anyway".
+Got a message from Daniel Glus: ": What component do you use for the main text area?".
+Got a message from Daniel Glus: ": I wonder".
+Got a message from Daniel Glus: ": In the client".
+Got a message from John: ": wait, sorry, i meant im gonna edit the chat class".
+Got a message from John: ": not the server".
+Got a message from John: ": :P".
+Got a message from Daniel Glus: ": You mean the class that handles client networking?".
+Got a message from Daniel Glus: ": That would be cool".
+Got a message from John: ": Chat.java".
+Got a message from Daniel Glus: ": yeah".
+Got a message from John: ": it's JEditorPane code".
+Got a message from Daniel Glus: ": ok".
+Got a message from Daniel Glus: ": cool".
+Got a message from Daniel Glus: ": so I can use that for the server (lol)".
+Got a message from John: ": :P".
+Got a message from Daniel Glus: ": When you're done with the chat code".
+Got a message from Daniel Glus: ": can you let me make some edits on the server code?".
+Got a message from Daniel Glus: ": lol".
+Got a message from Daniel Glus: ": I can't wait until this code lets you program".
+Got a message from John: ": LOL".
+Got a message from Daniel Glus: ": are yo done coding yet?".
+Got a message from Daniel Glus: ": *you".
+Got a message from Daniel Glus: ": \n".
+-
+===HELP===
+clear:	Clears screen.
+help:	Gets help.
+say <message>:	Tells everyone something.
+verbose:	Toggles VERBOSE between TRUE and FALSE, then
+		prints out the current value of VERBOSE after
+		toggling.
+Got a message from John: ": yes".
+Got a message from John: ": the problem is, it's hard to test chat code without being able to chat u guys".
+Got a message from Daniel Glus: ": I imagine so".
+Got a message from Daniel Glus: ": Do you have an Eclipse session open?".
+[ClientHandler()] Local port of client is: 4444
+[ClientHandler()] Remote port of client is: 53272
+[ClientHandler()] Client host address is: 5.19.244.115
+Got a connection!
+4 people are now connected.
+-
+Waiting for a connection...
+In ClientHandler run() method, just before start of while loop...
+Got a message from Enter username here: ": hello".
+Got a message from John: ": yes".
+Got a message from Daniel Glus: ": huh?".
+Got a message from Daniel Glus: ": Who is this?".
+Got a message from John: ": as you can see, i just ran it w/o entering a legit username".
+Got a message from Daniel Glus: ": oh".
+Got a message from John: ": lol".
+Got a message from Daniel Glus: ": It shows your username".
+Got a message from Daniel Glus: ": So I can figure that out from the server code".
+Got a message from John: ": we really need to activate autoscroll".
+Got a message from Daniel Glus: ": Autoscroll would be a good idea".
+Got a message from John: ": i can't figure out how to append a JEditorPane".
+Got a message from Daniel Glus: ": yeah".
+Got a message from Daniel Glus: ": can I try?".
+Got a message from Daniel Glus: ": CONGRATULATIONS!".
+Got a message from Daniel Glus: ": YOU SENT THE 100TH MESSAGE!".
+Got a message from John: ": lol...?".
+Got a message from John: ": ok, sure u can".
+Telling everyone:  Yes, it's true
+Got a message from Daniel Glus: ": That's my brother on the server".
+Got a message from John: ": just closed eclipse]".
+Got a message from John: ": lol".
+Got a message from John: ": ok".
+Telling everyone:  hi ths is daniels brother
+Got a message from John: ": hello, daniels brother".
+Got a message from John: ": how do you do.".
+Got a message from Daniel Glus: ": no jk I'm running this client and the server on the same computer".
+Got a message from Daniel Glus: ": trololololol".
+Got a message from John: ": lol".
+Got a message from John: ": -_-".
+Telling everyone:  This is still Daniel
+Got a message from John: ": harumph.".
+Got a message from Daniel Glus: ": but you were realy polite there".
+Got a message from John: ": :P".
+Got a message from John: ": adsf".
+Got a message from Daniel Glus: ": anyway".
+Got a message from Daniel Glus: ": you closed Eclipse?".
+Got a message from John: ": yes".
+Got a message from Daniel Glus: ": ok".
+Got a message from Daniel Glus: ": time to work on the client code".
+Got a message from John: ": kewl".
+Got a message from Daniel Glus: ": You know what".
+Got a message from Daniel Glus: ": Call me crazy".
+Got a message from Daniel Glus: ": but it's time".
+Got a message from Daniel Glus: ": for me".
+Got a message from Daniel Glus: ": to work on the code that sends keystrokes over the network".
+Got a message from John: ": lol".
+Got a message from John: ": ok".
+Got a message from Daniel Glus: ": So we can edit text together".
+Got a message from John: ": but what about improving chat?".
+Got a message from John: ": we gonna do that later?".
+Got a message from Daniel Glus: ": I'll improve chat first".
+Got a message from Daniel Glus: ": because it's easier".
+Got a message from John: ": ok".
+Got a message from Daniel Glus: ": lol".
+Got a message from John: ": so, will the keystrokes be sent when keylisteners fire, or when doclisteners do?".
+Got a message from John: ": hm".
+Got a message from John: ": it would appear that we also need sound alerts if the window is not focused".
+[ClientHandler()] Local port of client is: 4444
+[ClientHandler()] Remote port of client is: 62351
+[ClientHandler()] Client host address is: 192.168.0.101
+Got a connection!
+5 people are now connected.
+-
+Waiting for a connection...
+In ClientHandler run() method, just before start of while loop...
+Got a message from Daniel Glus 2: ": hi".
+Got a message from Daniel Glus 2: ": this is still daniel".
+Got a message from John: ": hey".
+Got a message from John: ": so".
+Got a message from John: ": hows that appending goin?".
+Got a message from Daniel Glus 2: ": except my purpose is to test some code that I added".
+Got a message from John: ": cool".
+Got a message from John: ": but".
+Got a message from Daniel Glus 2: ": time to go now".
+Got a message from John: ": will it work if we're using diff versions?".
+Got a message from Daniel Glus: ": yes".
+Got a message from John: ": ok".
+Got a message from John: ": did ur code work?".
+Got a message from Daniel Glus: ": Yes".
+Got a message from Daniel Glus: ": Time for autoscroll".
+Got a message from John: ": cool".
+Got a message from John: ": btw, if ur gonna use styles, use style attributes, instead of what i did with the codearea".
+Got a message from John: ": looks way easier".
+Got a message from Daniel Glus: ": ok".
+Got a message from John: ": so, whatcha editing now?".
+Got a message from Daniel Glus: ": the autoscroll".
+Got a message from John: ": right".
+Got a message from Daniel Glus: ": AAAAAAAA".
+Telling everyone:  AAAAAA
+Got a message from Daniel Glus: ": have to go".
+Got a message from Daniel Glus: ": for dinner".
+Got a message from Daniel Glus: ": will be back after dinner".
+Got a message from Daniel Glus: ": bye".
